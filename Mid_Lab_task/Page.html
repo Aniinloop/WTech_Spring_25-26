@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Contact Us</h1> 
+    <form onsubmit="return collect_data()">
+     <table>
+        <tr>
+            <td>
+                <label for="FirstName">FIRST NAME</label>
+                <br>
+                <input type="text" id="FirstName">
+            </td>
+            <td>
+                <label for="LastName">LAST NAME</label>
+                <br>
+                <input type="text" id="LastName">
+            </td>
+             </tr>
+             <tr>
+            <td>
+                <label for="Email">EMAIL</label>
+                <br>
+                <input type="email" id="Email">
+            </td>
+            <td>
+                <label for="PhoneNumber">PHONE NUMBER</label>
+                <br>
+                <input type="tel" id="PhoneNumber">
+            </td>
+             </tr>
+
+             <tr>
+            <td>
+                <label for="Query">WHAT DO YOU HAVE IN MIND</label>
+                <br>
+                <textarea id="Query" rows="5" cols="1" placeholder="Please enter query..."></textarea>
+            </td>
+             </tr>
+             <tr>
+                <td colspan="2">
+                    <button type="Submit" >Submit</button>
+                </td>
+             </tr>
+             <tr>
+                <td colspan="2"><p id="Error" style="color:red;"></p> </td>
+            
+             </tr>
+
+     </table>
+
+    </form>
+    </div>
+    </div> 
+    <script src="Validation_script.js"></script>  
+</body>
+</html>

@@ -13,19 +13,21 @@
 
 
 <head>
+    <script src ="D:\AIUB\Spring 25-26\WebTechnology\WTech_Spring25-26\WebTech_R\Lab3(JavaScript)\JS\Script.js" > </script>
     <h1> Patient Registration Form (Admission) </h1>
 </head>
 
-<form>
+<form  onsubmit="return collect_data()">
 
 <label for ="PatientName">Patient Name: </label>
 <input type="text" id = "PatientName" name = "PatientName" placeholder="Enter The Name">
 <br><br>
+<p id="NameError"></p>
 
 <label for = "Age">Patient Age: </label>
 <input type="number" id ="Age" name = "Age">
 <br><br>
-
+<p id="AgeError"> </p>
 <label for ="DOB"> Date of Birth: </label>
 <input type ="date" id ="DOB" name = "PatientDOB">
 <br><br>
@@ -62,6 +64,7 @@
 <input type="button" id ="reset" name ="reset" value ="Reset ">
 
 </form>
+<script src="Script.js"></script>
 </body>
 
 </html>
