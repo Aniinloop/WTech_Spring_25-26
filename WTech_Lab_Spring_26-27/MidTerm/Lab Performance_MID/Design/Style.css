@@ -1,0 +1,32 @@
+body
+{
+    background-color: white;
+}
+
+.container
+{
+    width: 350px;
+    height:auto;
+    margin-left:330px;
+    margin-top:50px;
+}
+
+fieldset
+{
+    width:350px;
+    padding:30px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+legend
+{
+    text-align:left;
+    font-weight:bold;
+}
+
+label
+{
+    text-align:left;
+    font-weight:bold;
+}
