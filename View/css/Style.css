@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+h1 {
+    color: #111;
+}
+
+form {
+    background: #fff;
+    border: 1px solid black;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+th {
+    background-color: #d2d0d0;
+    text-align: left;
+
+}
+
+#submitbutton {
+
+    background-color: #f0ebeb;
+    color : Black;
+    border :none;
+
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+
